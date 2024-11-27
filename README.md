@@ -1,6 +1,6 @@
 # go-pointer
 
-Utility for cgo
+Originally forked from https://github.com/mattn/go-pointer and adapted to fit the needs of go-gst
 
 ## Usage
 
@@ -17,7 +17,7 @@ v := *(pointer.Restore(C.get_from_pointer()).(*string))
 ## Installation
 
 ```
-go get github.com/mattn/go-pointer
+go get github.com/go-gst/go-pointer
 ```
 
 ## License

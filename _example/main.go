@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/mattn/go-pointer"
+	"module github.com/go-gst/go-pointer"
 )
 
 type Foo struct {
